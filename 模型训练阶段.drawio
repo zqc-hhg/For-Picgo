@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T00:20:26.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.5" etag="Tw6tP58QnQHHwom_0Gcr" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-18T00:35:16.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="w2kREzN7baeWSH08qoCd" version="23.1.5" type="github">
   <diagram name="第 1 页" id="Pwyl9pv40Y5vot8u0tTv">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GsCXeVKIdaJTYbIheYTA-1" target="GsCXeVKIdaJTYbIheYTA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-1" value="将数据进行预处理，将API序列转化为词向量" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GsCXeVKIdaJTYbIheYTA-3" target="GsCXeVKIdaJTYbIheYTA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;使用训练集对模型进行训练，通过输入&lt;/font&gt;&lt;font face=&quot;仿宋_GB2312&quot;&gt;API&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;序列并与相应的敏感信息标签进行比较，更新模型的权重和偏置&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-4" value="&lt;p class=&quot;MsoNormal&quot;&gt;使用验证集评估模型的性能，并根据验证结果进行调整&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-7" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="540" y="40" as="sourcePoint" />
+            <mxPoint x="490" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-8" value="S1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="550" y="140" as="sourcePoint" />
+            <mxPoint x="500" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-10" value="S2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-11" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="560" y="240" as="sourcePoint" />
+            <mxPoint x="510" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsCXeVKIdaJTYbIheYTA-12" value="S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
